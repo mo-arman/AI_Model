@@ -18,3 +18,32 @@ AI_Model/
 ├── scripts/ # Utility scripts, model training, or inference code
 ├── requirements.txt # Python dependencies
 └── README.md # You're reading it :)
+
+
+## 📦 Features (Planned & Upcoming)
+
+- [ ] Load and serve LLM or NLP models using HuggingFace or OpenAI  
+- [ ] Create REST API endpoints using FastAPI or Flask  
+- [ ] Integrate vector DB (e.g., FAISS or Chroma) for semantic search  
+- [ ] Add test interface for AI-based assessments  
+- [ ] Deploy the model via Docker or Render
+
+## 🧠 Tech Stack
+
+| Component      | Tool/Library                        |
+|----------------|-------------------------------------|
+| Backend        | Python, FastAPI / Flask             |
+| NLP Models     | HuggingFace Transformers, OpenAI    |
+| Data Handling  | Pandas, NumPy                       |
+| Deployment     | Docker, GitHub Actions              |
+| Testing        | Pytest (Optional)                   |
+
+## 📥 Installation
+
+```bash
+git clone https://github.com/mo-arman/AI_Model.git
+cd AI_Model
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+
