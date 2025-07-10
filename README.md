@@ -13,3 +13,8 @@ This project is built with the goal of integrating AI models (LLMs or custom NLP
 - ✍️ AI writing assistants or summarization tools
 
 ## 🏗️ Folder Structure
+AI_Model/
+├── models/ # Pre-trained or custom models (e.g., transformer models, finetuned LLMs)
+├── scripts/ # Utility scripts, model training, or inference code
+├── requirements.txt # Python dependencies
+└── README.md # You're reading it :)
